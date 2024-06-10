@@ -1,0 +1,10 @@
+.geomap {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectgeo {
+  height: 40px;
+  border-radius: 10px;
+  font-size: large;
+}

@@ -1,0 +1,38 @@
+.testreport {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "card1 card1 card2 card2"
+    "table table table table"
+    "table table table table"
+    "table table table table";
+
+  grid-gap: 10px;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: auto;
+  margin-right: 50rem;
+
+}
+
+.parent {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 100vh;           /* Full height of viewport */
+  width: 100vw;            /* Full width of viewport */
+}
+
+
+/* .card3 { */
+/* grid-area: card3; */
+/* } */
+/* .card4 { */
+/* grid-area: card4; */
+/* } */
+/* .card5 { */
+/* grid-area: card5; */
+/* border: 1px solid rgb(206, 204, 204); */
+/* border-radius: 10px; */
+/* } */

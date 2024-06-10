@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  font-family: 'Work Sans';
+}
+.sidebar {
+  position: fixed;
+  /* left: 5px; */
+  margin: 0px 5px;
+  padding-right: 0.5rem;
+  margin-top: 2.5vh;
+  height: 95vh;
+  /* border-radius: 0.5rem; */
+  margin-left: 0.5rem;
+  width: 250px;
+  border: 1px solid #dbdbdb;
+  box-shadow: 5px 5px 5rem #d9d9d9;
+  background: #ffffff;
+  background: linear-gradient(135deg, #fbfbfb 0%, #fbfbfb 5%,transparent 5%, transparent 10%, #fbfbfb 10%, #fbfbfb 15%,transparent 15%,transparent 20%, #fbfbfb 20%, #fbfbfb 25%,transparent 25%,transparent 30%, #fbfbfb 30%, #fbfbfb 35%,transparent 35%,transparent 40%, #fbfbfb 40%, #fbfbfb 45%,transparent 45%,transparent 50%, #fbfbfb 50%, #fbfbfb 55%,transparent 55%,transparent 60%, #fbfbfb 60%, #fbfbfb 65%,transparent 65%,transparent 70%, #fbfbfb 70%, #fbfbfb 75%,transparent 70%,transparent 80%, #fbfbfb 80%, #fbfbfb 85%,transparent 85%,transparent 90%, #fbfbfb 90%, #fbfbfb 95%,transparent 95%);
+  background-size: 3em 3em;
+  background-color: #ffffff;
+  opacity: 1;
+  z-index: 100;
+  /* transition: all 0.5s ease; */
+  /* transform: translateX(-100%); */
+  /* box-shadow: 5px 0 10px rgba(0,0,0,0.1); */
+  border-right: 1px solid rgb(206, 204, 204);
+}
+
+.sidebar-logo {
+  margin: 15px 32px 15px;
+}
+
+.sidebar-logo i {
+  display: none;
+}
+
+/* .sidebar span { */
+/* color: #0b0b0bef; */
+/* font-size: 25px; */
+/* font-weight: bold; */
+/* } */
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0px 32px; */
+  gap: 15px;
+  margin-top: 32px;
+  text-decoration: none;
+  text-decoration-style: none;
+  list-style-type: none;
+}
+
+.sidebar-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #3e3e3e;
+  margin: 0px 8px;
+  /* border-radius: 0.3rem; */
+  background: #f7f7f7;
+  border: 1px solid #d6d6d6;
+  transition: 0.2s ease;
+  padding: 0.4rem 0.4rem;
+  /* box-shadow: 0.25rem 0.25rem 0 #d6d6d6; */
+}
+
+.sidebar-links a i {
+  margin-right: 8px; /* Add some spacing between the icon and text */
+  font-size: 20px;
+}
+
+.sidebar-links a span {
+  font-weight: bold;
+  margin: auto 0;
+  margin-left: 0.3rem;
+  margin-bottom: 0.3rem;}
+
+.sidebar-links a:hover {
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+
+.open {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 100;
+  border-right: 1px solid rgb(206, 204, 204);
+  background-color: aliceblue;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 770px) {
+  .sidebar {
+    width: 80px;
+  }
+
+  .sidebar-links a {
+    display: none;
+  }
+  .sidebar-logo span {
+    display: none;
+  }
+  .sidebar-logo i {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/* .sidebar-toggle { */
+/* position: absolute; */
+/* bottom: 20px; */
+/* left: 20px; */
+/* cursor: pointer; */
+/* } */
+/*  */
+/* .sidebar-toggle i { */
+/* font-size: 20px; */
+/* transition: all 0.3s ease; */
+/* } */
+/*  */
+/* .sidebar-toggle i.fa-angle-left { */
+/* transform: rotate(180deg); */
+/* } */

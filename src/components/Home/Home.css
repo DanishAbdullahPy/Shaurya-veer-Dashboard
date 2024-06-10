@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  font-family: 'Work Sans';
+}
+
+.home {
+  display: flex;
+}
+
+.home-left {
+  width: 250px;
+}
+
+.home-right {
+  width: calc(100% - 290px);
+
+  flex-wrap: wrap;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 770px) {
+  .home-left {
+    width: 80px;
+  }
+  .home-right {
+    width: calc(100% - 100px);
+  }
+}

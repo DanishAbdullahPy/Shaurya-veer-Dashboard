@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(45deg,transparent 34%, #f8f8f8 35%, #f8f8f8 40%, transparent 41%, transparent 59%, #f8f8f8  60%, #f8f8f8 65%, transparent 66%),linear-gradient(135deg,transparent 34%, #f8f8f8 35%, #f8f8f8 40%, transparent 41%, transparent 59%, #f8f8f8  60%, #f8f8f8 65%, transparent 66%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    opacity: 1
+}
+.card1, .card2, .card3, .card4, .table {
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 0px !important;
+    box-shadow: 0 0 3rem #dbdbdb;
+    backdrop-filter: blur(0.5rem);
+}
+table{
+    box-shadow: 0 0 3rem #dbdbdb;
+}
